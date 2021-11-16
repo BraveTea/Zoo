@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 
-//TODO try and replace HabitatBase with a non-abstract class called Habitat<T> (type T)
+//TODO try and replace Habitat with a non-abstract class called Habitat<T> (type T)
 
-public abstract class HabitatBase<T> {
+public abstract class Habitat<T> {
 
     private String name;
     protected ArrayList<T> allAnimalsInHabitat;
 
-    HabitatBase(String name) {
+    Habitat(String name) {
         this.name = name;
         allAnimalsInHabitat = new ArrayList<>();
     }

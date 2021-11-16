@@ -1,10 +1,8 @@
-import java.util.ArrayList;
-
-public abstract class FishBase<T> implements iAnimal {
+public abstract class Fish<T> implements Animal {
 
     private String name;
 
-    FishBase(String name){
+    Fish(String name){
         this.name = name;
     }
 

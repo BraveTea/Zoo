@@ -1,6 +1,6 @@
-//Created this to and check that iAnimal can be used as a type
+//Created this to and check that Animal can be used as a type
 
-public class TheWorld extends HabitatBase<iAnimal>{
+public class TheWorld extends Habitat<Animal> {
 
     TheWorld(String name) {
         super(name);

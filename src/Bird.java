@@ -1,10 +1,8 @@
-import java.util.ArrayList;
-
-public abstract class BirdBase implements iAnimal{
+public abstract class Bird implements Animal {
 
     private String name;
 
-    BirdBase(String name){
+    Bird(String name){
         this.name = name;
     }
 

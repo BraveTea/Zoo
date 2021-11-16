@@ -1,4 +1,4 @@
-public class Tuna extends FishBase implements iAnimal{
+public class Tuna extends Fish implements Animal {
 
     Tuna(String name) {
         super(name);

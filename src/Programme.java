@@ -24,12 +24,12 @@ public class Programme {
 
 //        aquarium1.addAnimalToHabitat(blackbird1); //testing to see if I could add a bird to an aquarium (no)
 //        aviary1.addAnimalToHabitat(tuna1); //testing to see if I could add a fish to an aviary (no)
-        theWorld1.addAnimalToHabitat(tuna1); //So this shows that tuna1 is in fact of the type iAnimal
+        theWorld1.addAnimalToHabitat(tuna1); //So this shows that tuna1 is in fact of the type Animal
 
 
 
 
-//        for (FishBase fish : aquarium1.allAnimalsInHabitat) {
+//        for (Fish fish : aquarium1.allAnimalsInHabitat) {
 //            System.out.println(fish);
 //        }
 

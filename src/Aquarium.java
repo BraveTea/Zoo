@@ -1,4 +1,4 @@
-public class Aquarium extends HabitatBase<FishBase>{
+public class Aquarium extends Habitat<Fish> {
 
     Aquarium(String name) {
         super(name);

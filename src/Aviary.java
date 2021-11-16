@@ -1,4 +1,4 @@
-public class Aviary extends HabitatBase<BirdBase>{
+public class Aviary extends Habitat<Bird> {
 
     Aviary(String name) {
         super(name);
